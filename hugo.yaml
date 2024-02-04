@@ -354,7 +354,7 @@ params:
           - "Bootstrap"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/gurusabarish/converterhttps://mastodon.scot/@sundown_sessions
 
       - title: Hugo Profile V2
         content: A clean and simple Hugo template for personal portfolio and blog.
@@ -370,18 +370,6 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
 
-  #Contact
-  contact:
-    enable: true
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
-    btnName: Mail me
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
 
   # List pages like blogs and posts
   listPages:
@@ -446,7 +434,13 @@ params:
   
   
   
-  
+  contact:
+    enable: true
+    title: Turn your ideas into reality
+    content: Let's chat about how I can help you achieve your goals.
+    email: email@someone.com
+    btnName: Mail me
+
   footer:
 #    recentPosts:
 #      path: "blogs"
@@ -455,8 +449,9 @@ params:
 #      enable: true
 #      disableFeaturedImage: false
     socialNetworks:
-#      github: https://github.com
+      github: https://github.com/colin-gourlay
       linkedin: https://www.linkedin.com/in/colingourlay/
-#      twitter: https://twitter.com
-#      instagram: https://instagram.com
-#      facebook: https://facebook.com
+      twitter: https://twitter.com/sundown_session
+      instagram: https://instagram.com
+      mastodon: https://mastodon.scot/@sundown_sessions
+      facebook: https://www.facebook.com/groups/1087350798933125
