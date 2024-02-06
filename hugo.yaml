@@ -235,57 +235,7 @@ params:
         content: Contributed to a open source project.
         url: https://example.com
 
-  # projects
-  projects:
-    enable: false
-    # title: "Custom Name"
-    items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converterhttps://mastodon.scot/@sundown_sessions
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
-
-
+ 
   # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
@@ -350,6 +300,53 @@ params:
             - FRM has become a cornerstone of Hymans Robertson's service offering, significantly improving transparency and effectiveness for LGPS clients across the UK.
             - The application has garnered acclaim for its user-friendliness and innovative approach to funding analysis.
             - My involvement as a Senior Developer further honed my technical skills, user-centric approach, and expertise in the LGPS landscape.
+      - job: Senior Software Engineer
+        company: Royal London
+        companyUrl: https://www.royallondon.com/
+        date: Sep 2018 - Oct 2021
+        info:
+          enable: true
+          content: Working as a full stack software engineer
+        featuredLink:
+          enable: true
+          name: View Adviser Tools
+          url: https://adviser.royallondon.com/product-support/online-service/pensions/financial-planning-tool/
+        content: |
+          Full stack engineer at the UK’s largest mutual for pensions, protection and investments.
+  
+          Primary responsibilities are the design, development, test and implementation of efficient solutions that match customer requirements.
+
+          Recent assignments include:
+  
+          - Adviser Tools - A financial planning tool that provides clients with a full picture of their different sources of income and how sustainable that might be in matching their needs in the future (see link below for more detail).
+          - Value of Menu - A tool that allows a client to mix and match a range of covers to provide the right amount of protection for their lifestyle.
+  projects:
+    enable: true
+    title: "Side Projects"
+    items:
+      - title: Sundown Sessions
+        content: An ancillary web site to support my radio show.
+        image: /sundown-sessions-logo.jpg
+        featured:
+          name: Live site
+          link: https://colin-gourlay.github.io/sundown-sessions/
+        badges:
+          - "C#"
+          - "dotnet"
+          - "azure"
+        links:
+          - icon: fa fa-envelope
+            url: https://example.org
+          - icon: fab fa-github
+            url: https://example.org  
+          - icon: fab fa-twitter
+            url: https://example.org
+          - icon: fab fa-tiktok
+            url: https://example.org
+          - icon: fab fa-facebook
+            url: https://example.org
+          - icon: fab fa-mastodon
+            url: https://example.org
   contact:
     enable: true
     title: Turn your ideas into reality
@@ -369,4 +366,4 @@ params:
       twitter: https://twitter.comfalse/sundown_session
       instagram: https://instagram.com
       mastodon: https://mastodon.scot/@sundown_sessions
-      facebook: https://www.facebook.com/groups/1087350798933125
+      tiktok: https://www.tiktok.com/@sundownsessionsshow
