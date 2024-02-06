@@ -214,26 +214,6 @@ params:
           url: "https://example.com"
 
   # Achievements
-  achievements:
-    enable: false
-    # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
 
  
   # List pages like blogs and posts
@@ -320,8 +300,28 @@ params:
   
           - Adviser Tools - A financial planning tool that provides clients with a full picture of their different sources of income and how sustainable that might be in matching their needs in the future (see link below for more detail).
           - Value of Menu - A tool that allows a client to mix and match a range of covers to provide the right amount of protection for their lifestyle.
-  projects:
+      - job: Technical Lead
+        company: Edinburgh Business School
+        companyUrl: https://www.hw.ac.uk/ebs/
+        date: Jan 2014 - Sep 2018
+        info:
+          enable: true
+          content: Working as a technical lead
+        content: TODO CG to complete...
+  achievements:
     enable: true
+    title: "Volunteering"
+    items:
+      - title: Studio Engineer (Community Radio)
+        content: I ensure the on-air and digital broadcasts reach a diverse audience with top-notch audio quality and a seamless listening experience.
+        url: https://www.k107.co.uk/
+        image: /k107-logo.jpeg
+      - title: Lead Facilitator
+        content: As a Lead Facilitator I guide the group; setting goals, keep discussions on track, and ensure everyone gets heard.
+        url: https://andysmanclub.co.uk/
+        image: /amc-logo.png
+  projects:
+    enable: true Sets
     title: "Side Projects"
     items:
       - title: Sundown Sessions
@@ -338,11 +338,11 @@ params:
           - icon: fa fa-envelope
             url: https://example.org
           - icon: fab fa-github
-            url: https://example.org  
+            url: https://github.com/colin-gourlay
           - icon: fab fa-twitter
-            url: https://example.org
+            url: https://twitter.comfalse/sundown_session
           - icon: fab fa-tiktok
-            url: https://example.org
+            url: https://www.tiktok.com/@sundownsessionsshow
           - icon: fab fa-facebook
             url: https://example.org
           - icon: fab fa-mastodon
