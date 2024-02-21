@@ -246,7 +246,7 @@ params:
   
   ## TODO: REVIEW CONTENT ABOVE...
   experience:
-    enable: true
+    enable: false
     title: "Experience"
     items:
       - job: Senior Software Developer
@@ -309,7 +309,7 @@ params:
           content: Working as a technical lead
         content: TODO CG to complete...
   achievements:
-    enable: true
+    enable: false
     title: "Volunteering"
     items:
       - title: Studio Engineer (Community Radio)
@@ -321,7 +321,7 @@ params:
         url: https://andysmanclub.co.uk/
         image: /amc-logo.png
   projects:
-    enable: true Sets
+    enable: false
     title: "Side Projects"
     items:
       - title: Sundown Sessions
@@ -348,10 +348,10 @@ params:
           - icon: fab fa-mastodon
             url: https://example.org
   contact:
-    enable: true
+    enable: false
     title: Turn your ideas into reality
     content: Let's chat about how I can help you achieve your goals.
-    email: online-resume.cone889@passmail.net
+    email: onlifalsene-resume.cone889@passmail.net
     btnName: Mail me
   footer:
 #    recentPosts:
@@ -360,10 +360,10 @@ params:
 #      title: Recent Posts
 #      enable: true
 #      disableFeaturedImage: false
-    socialNetworks:
-      github: https://github.com/colin-gourlay
-      linkedin: https://www.linkedin.com/in/colingourlay/
-      twitter: https://twitter.comfalse/sundown_session
-      instagram: https://instagram.com
-      mastodon: https://mastodon.scot/@sundown_sessions
-      tiktok: https://www.tiktok.com/@sundownsessionsshow
+#    socialNetworks:
+#      github: https://github.com/colin-gourlay
+#      linkedin: https://www.linkedin.com/in/colingourlay/
+#      twitter: https://twitter.comfalse/sundown_session
+#      instagram: https://instagram.com
+#      mastodon: https://mastodon.scot/@sundown_sessions
+#      tiktok: https://www.tiktok.com/@sundownsessionsshow
