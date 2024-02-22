@@ -20,12 +20,12 @@ markup:
     renderer:
       unsafe: true
 #Menus:
-#  main:
-#    - identifier: blog
-#      name: Blog
-#      title: Blog posts
-#      url: /blogs
-#      weight: 1
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blog
+      weight: 1
 #    - identifier: gallery
 #      name: Gallery
 #      title: Blog posts
@@ -215,10 +215,11 @@ params:
 
   # Achievements
 
+
  
   # List pages like blogs and posts
   listPages:
-    disableFeaturedImage: false
+    disableFeaturedImage: true
 
   # Single pages like blog and post
   singlePages:
@@ -353,13 +354,7 @@ params:
     content: Let's chat about how I can help you achieve your goals.
     email: onlifalsene-resume.cone889@passmail.net
     btnName: Mail me
-  footer:
-#    recentPosts:
-#      path: "blogs"
-#      count: 3
-#      title: Recent Posts
-#      enable: true
-#      disableFeaturedImage: false
+
 #    socialNetworks:
 #      github: https://github.com/colin-gourlay
 #      linkedin: https://www.linkedin.com/in/colingourlay/
@@ -367,3 +362,13 @@ params:
 #      instagram: https://instagram.com
 #      mastodon: https://mastodon.scot/@sundown_sessions
 #      tiktok: https://www.tiktok.com/@sundownsessionsshow
+
+
+##########################################################################################
+  footer:
+    recentPosts:
+      path: blog
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
